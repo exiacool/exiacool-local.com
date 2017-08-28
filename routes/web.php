@@ -14,3 +14,5 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::resource('Maintenance/Contacts_rents','Contacts_rentsController');
